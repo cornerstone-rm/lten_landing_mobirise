@@ -24,7 +24,8 @@
     "versionFirst": "3.12.1",
     "uniqCompNum": 10,
     "versionPublish": "3.12.1",
-    "publishFtpPath": "public_html"
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -136,26 +137,6 @@
             "Extension"
           ],
           "_name": "extHeader13",
-          "_styles": {
-            "H4": {
-              "color": "#f3c649",
-              "font-size": "30px",
-              "font-family": "'Lato', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
-            },
-            "H3": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            },
-            "P": {
-              "font-size": "30px"
-            },
-            "SPAN": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "30px"
-            }
-          },
           "_anchor": "extHeader13-9",
           "_params": {
             "parallax": false,
@@ -208,7 +189,12 @@
           },
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Let's talk!</a>",
           "title": "SEE YOU AT<br>LTEN",
-          "text": "<span style=\"line-height: 1.5;\">Booth 512</span><br>June 5-8, 2017<br>"
+          "text": "<span style=\"line-height: 1.5;\">Booth 512</span><br>June 5-8, 2017<br>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full extHeader13 mbr-after-navbar\" style=\"background-image: url(@PROJECT_PATH@/assets/images/nashville-river-2000x863-1.jpg);\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"mbr-section row\">\n                    <div class=\"mbr-table-md-up\">\n                        \n                        \n\n                        <div class=\"mbr-table-cell mbr-right-padding-md-up col-md-7 text-xs-center text-md-right\">\n                           <div class=\"container2\">\n                                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"8\">SEE YOU AT<br>LTEN</h3>\n                                <div class=\"mbr-section-text lead\">\n                                    <p class=\"mbr-editable-content\" code-editable-id=\"9\"><span style=\"line-height: 1.5;\">Booth 512</span><br>June 5-8, 2017<br></p>\n                                </div>\n                                <div class=\"countdown\" data-end=\"2017/06/05\"></div>\n                            </div>\n                        </div>\n                        <div class=\"form-table mbr-valign-top col-md-9  formblock\" data-form-type=\"formoid\">\n                            <h4 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"10\"><span style=\"font-weight: normal;\">Arrange a sit down with us&nbsp;in Nashville!</span></h4>\n                            <div data-form-alert=\"true\">\n                                <div hidden=\"\" data-form-alert-success=\"true\" class=\"alert alert-form alert-success text-xs-center\">Thank You!</div>\n                            </div>\n                            <form action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"SEE YOU ATLTEN\">\n                                <input type=\"hidden\" value=\"awXmuWuoNS8epxy9QEXmew4yLTlPBaqCJKtNe2FEDlBmGkQRM8Fq0EjJLTHPJM/ELH4kk5AHc5RdRqG1rfWCHHklqmUJOa3Bl7+hbCTVbl2Qh02l/ANZgynNxb6LUBav\" data-form-email=\"true\">\n\n                                    <div class=\"col-xs-12\">\n                                         <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Name*\">\n                                    </div>\n\n                                    <div class=\"col-xs-12\"> \n                                         <input type=\"text\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email*\">    \n                                    </div>\n\n                                    <div class=\"col-xs-12\">\n                                         <input type=\"text\" class=\"form-control\" name=\"phone\" required=\"\" data-form-field=\"Phone\" placeholder=\"Phone*\">\n                                    </div>\n\n                                    \n                                <div class=\"col-xs-12\" style=\"margin-top: 10px; text-align: center\"><button type=\"submit\" class=\"btn btn-info mbr-editable-button\" code-editable-id=\"11\">Let's talk!</button></div>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"mbr-arrow mbr-arrow-floating hidden-sm-down\" aria-hidden=\"true\"><a href=\"#image1-3\"><i class=\"mbr-arrow-icon\"></i></a></div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Lora:400,700);\nH4 {\n\tcolor: #f3c649;\n\tfont-size: 30px;\n\tfont-family: 'Lato', sans-serif;\n}\nH3 {\n\tfont-family: 'Open Sans', sans-serif;\n}\nP {\n\tfont-size: 30px;\n}\nSPAN {\n\tfont-family: 'Lora', serif;\n\tfont-size: 30px;\n}\n",
+          "_customTemplate": true
         },
         {
           "_tags": [
