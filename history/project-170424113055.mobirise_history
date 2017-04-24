@@ -23,8 +23,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 10,
-    "versionPublish": "3.12.1",
-    "publishFtpPath": "public_html"
+    "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
@@ -85,7 +84,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "@primaryColor!important"
             }
           },
           "_tags": [
