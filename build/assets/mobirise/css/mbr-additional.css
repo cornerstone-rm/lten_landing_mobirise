@@ -1,9 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
+
 
 
 
@@ -736,33 +740,48 @@ h6,
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#extHeader13-9 {
-  
-  
-  
-}
-#extHeader13-9 H4 {
+#extHeader13-c H4 {
   color: #f3c649;
   font-size: 30px;
   font-family: 'Lato', sans-serif;
 }
-#extHeader13-9 H3 {
+#extHeader13-c H3 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
 }
-#extHeader13-9 P {
+#extHeader13-c P {
   font-size: 30px;
 }
-#extHeader13-9 SPAN {
+#extHeader13-c SPAN {
   font-family: 'Lora', serif;
   font-size: 30px;
+  color: #f7da64;
+}
+#extHeader13-c .form-control {
+  opacity: .85;
+}
+#extHeader13-c input::-webkit-input-placeholder {
+  color: #28324E;
+}
+#header3-b .mbr-section-title,
+#header3-b .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-b H3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  color: #28324e;
+  text-align: right;
 }
 #msg-box5-4 H3 {
   text-align: left;
   font-size: 30px;
+  color: #28324e;
 }
 #msg-box5-5 H3 {
   text-align: left;
   font-size: 30px;
+  color: #28324e;
 }
 #header3-6 .mbr-section-title,
 #header3-6 .mbr-section-subtitle {
@@ -778,7 +797,7 @@ h6,
   font-family: 'Open Sans', sans-serif;
 }
 #contacts4-7 P {
-  color: #cccccc;
+  color: #ffffff;
 }
 #contacts4-7 B {
   font-size: 16px;
@@ -786,6 +805,9 @@ h6,
 }
 #contacts4-7 STRONG {
   color: #8c8c8c;
+}
+#contacts4-7 SPAN {
+  font-size: 15px;
 }
 #footer1-8 .my-image {
   width: 240px;

@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "lten_landing_page",
+    "name": "lten",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -21,18 +21,19 @@
         "isRtl": false
       }
     },
+    "favicon": "",
+    "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 10,
+    "uniqCompNum": 17,
     "versionPublish": "3.12.1",
-    "publishFtpPath": "public_html",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@/build"
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "LTEN: Cornerstone Management Resource Systems",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -147,7 +148,8 @@
             },
             "H3": {
               "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "48px"
             },
             "P": {
               "font-size": "30px"
@@ -155,14 +157,15 @@
             "SPAN": {
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "30px"
+              "font-size": "30px",
+              "color": "#f7da64"
             }
           },
-          "_anchor": "extHeader13-9",
+          "_anchor": "extHeader13-c",
           "_params": {
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/nashville-river-2000x863-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/nashville-936399-2000x1333.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -170,8 +173,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlayOpacity": "0.5",
+            "overlayColor": "#28324e",
             "inverse": false,
             "showFormTitle": true,
             "showTitle": true,
@@ -210,7 +213,8 @@
           },
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Let's talk!</a>",
           "title": "SEE YOU AT<br>LTEN",
-          "text": "<span style=\"line-height: 1.5;\">Booth 512</span><br>June 5-8, 2017<br>"
+          "text": "<span style=\"line-height: 1.5;\">Booth 512</span><br>June 5-8, 2017<br>",
+          "_customCSS": ".form-control {\n    opacity: .85;\n}\n\ninput::-webkit-input-placeholder {\n    color: #28324E;\n}"
         },
         {
           "_tags": [
@@ -235,7 +239,35 @@
           "_params": {
             "showText": false
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_customCSS": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "48px",
+              "color": "#28324e",
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-b",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "<span style=\"font-weight: normal;\">This year at Booth 512</span>",
+          "meta": "By John Smith posted July 20, 2016"
         },
         {
           "_tags": [
@@ -245,7 +277,8 @@
           "_styles": {
             "H3": {
               "text-align": "left",
-              "font-size": "30px"
+              "font-size": "30px",
+              "color": "#28324e"
             }
           },
           "_anchor": "msg-box5-4",
@@ -304,7 +337,8 @@
           "_styles": {
             "H3": {
               "text-align": "left",
-              "font-size": "30px"
+              "font-size": "30px",
+              "color": "#28324e"
             }
           },
           "_anchor": "msg-box5-5",
@@ -392,7 +426,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             "P": {
-              "color": "#cccccc"
+              "color": "#ffffff"
             },
             "B": {
               "font-size": "16px",
@@ -400,6 +434,9 @@
             },
             "STRONG": {
               "color": "#8c8c8c"
+            },
+            "SPAN": {
+              "font-size": "15px"
             }
           },
           "_anchor": "contacts4-7",
@@ -415,7 +452,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<b>Address</b><br><br>Cornerstone Management Resource Systems<br>212 Mary Street<br>\nCarnegie, PA 15106<br><br>\n<strong>Contacts</strong><br>\ncontact@leadwithcornerstone.com<br><br>\nPhone: (412) 429-6400 <br>\nFax: (412) 429-6450",
+          "text1": "<span style=\"font-size: 0.875rem; line-height: 1.5;\">Cornerstone Management Resource Systems</span><br>212 Mary Street<br>\nCarnegie, PA 15106<br><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">contact@leadwithcornerstone.com</span><br><br>\nPhone: (412) 429-6400 <br>\nFax: (412) 429-6450",
           "text2": "<p class=\"mbr-contacts__text\"><font color=\"#7e9b9f\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Proud Members of:</b></span></font></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://www.l-ten.org/\" target=\"_blank\">Life Science Trainers &amp; Educators Network</a></li><li><a href=\"http://www.aomonline.org/\" target=\"_blank\">Academy of Management</a></li><li><a href=\"http://www.td.org/\" target=\"_blank\">Association for Talent Development</a></li><li><a href=\"http://http://www.siop.org/\" target=\"_blank\">Society for Industrial and Organizational Psychology</a></li><li><a href=\"http://www.shrm.org/\" target=\"_blank\">Society for Human Resource Management</a></li></ul>",
           "form": {
             "title": "MESSAGE",
